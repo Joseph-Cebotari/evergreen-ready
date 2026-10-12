@@ -4,6 +4,8 @@ A two-week earthquake kit and family plan, sized to your household.
 
 Built for WarriorHacks 2.0. Theme: create a project that solves an issue in your community, county, state, or nation.
 
+   Live demo: https://quakeready-wa.vercel.app
+
 ![The QuakeReady WA home screen, with a timeline of Washington earthquakes](docs/screenshots/1-home.png)
 
 ## The problem
