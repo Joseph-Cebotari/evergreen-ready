@@ -150,7 +150,7 @@ export default function PlanView({ plan, checked, onToggle, familyPlan, onFamily
       </section>
 
       <p className="print-only print-note">
-        Printed from QuakeReady WA. The reason and official source for every item are in the online plan.
+        Printed from Evergreen Ready. The reason and official source for every item are in the online plan.
       </p>
 
       <div className="reset no-print">

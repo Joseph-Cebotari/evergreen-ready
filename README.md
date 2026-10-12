@@ -1,12 +1,12 @@
-# QuakeReady WA
+# Evergreen Ready
 
 A two-week earthquake kit and family plan, sized to your household.
 
 Built for WarriorHacks 2.0. Theme: create a project that solves an issue in your community, county, state, or nation.
 
-   Live demo: https://quakeready-wa.vercel.app
+Live demo: https://evergreen-ready.vercel.app
 
-![The QuakeReady WA home screen, with a timeline of Washington earthquakes](docs/screenshots/1-home.png)
+![The Evergreen Ready home screen, with a timeline of Washington earthquakes](docs/screenshots/1-home.png)
 
 ## The problem
 
@@ -16,7 +16,7 @@ After a large earthquake, help may take a while to arrive, so Washington Emergen
 
 ## What it does
 
-QuakeReady WA asks four short questions about who lives in your home, your pets, any medical or mobility needs, and the home itself. From the answers it builds a plan with four parts.
+Evergreen Ready asks four short questions about who lives in your home, your pets, any medical or mobility needs, and the home itself. From the answers it builds a plan with four parts.
 
 Kit. A checklist with quantities worked out for your household, such as 56 gallons of water for three people and a dog. Items are marked "Start here", "Next", or "When you can" so a family on a budget knows what to buy first. Items only appear if they apply to you: formula for infants, hearing aid batteries, a car kit.
 
@@ -113,7 +113,7 @@ Also the [Pacific Northwest Seismic Network](https://pnsn.org/blog/what-is-the-c
 
 ## Limits
 
-QuakeReady WA is a student project and is not affiliated with any government agency. It summarizes official guidance and is not a substitute for it. The gas shutoff phone number shown is for Puget Sound Energy; other parts of Washington have other gas utilities. The app is in English only for now.
+Evergreen Ready is a student project and is not affiliated with any government agency. It summarizes official guidance and is not a substitute for it. The gas shutoff phone number shown is for Puget Sound Energy; other parts of Washington have other gas utilities. The app is in English only for now.
 
 ## What is next
 

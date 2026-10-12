@@ -38,7 +38,7 @@ async function answerQuestions(user) {
   await user.click(screen.getByRole('button', { name: 'Build my plan' }));
 }
 
-describe('QuakeReady WA', () => {
+describe('Evergreen Ready', () => {
   it('opens on the home screen with the case for preparing', () => {
     render(<App />);
     expect(screen.getByRole('heading', { level: 1, name: /two weeks away/i })).toBeInTheDocument();
@@ -186,7 +186,7 @@ describe('QuakeReady WA', () => {
     await user.click(screen.getByRole('button', { name: 'Start over' }));
     await user.click(screen.getByRole('button', { name: 'Erase and start over' }));
     expect(screen.getByRole('heading', { level: 1, name: /two weeks away/i })).toBeInTheDocument();
-    expect(window.localStorage.getItem('quakeready:checked')).toBe('{}');
+    expect(window.localStorage.getItem('evergreen-ready:checked')).toBe('{}');
   });
 
   it('sends a direct link to the plan back to the questions when there is no plan yet', () => {
@@ -196,9 +196,9 @@ describe('QuakeReady WA', () => {
   });
 
   it('survives corrupted saved data', () => {
-    window.localStorage.setItem('quakeready:household', '{not json');
-    window.localStorage.setItem('quakeready:checked', '"oops"');
-    window.localStorage.setItem('quakeready:hasPlan', 'true');
+    window.localStorage.setItem('evergreen-ready:household', '{not json');
+    window.localStorage.setItem('evergreen-ready:checked', '"oops"');
+    window.localStorage.setItem('evergreen-ready:hasPlan', 'true');
     window.location.hash = '#/plan';
     render(<App />);
     expect(screen.getByText(/For 1 adult\./)).toBeInTheDocument();

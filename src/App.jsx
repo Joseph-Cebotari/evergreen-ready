@@ -63,7 +63,7 @@ export default function App() {
 
       <header className="site-header">
         <a className="wordmark" href="#/home">
-          QuakeReady <span className="wordmark-state">WA</span>
+          Evergreen Ready <span className="wordmark-state">WA</span>
         </a>
         <nav aria-label="Main">
           {hasPlan ? (
@@ -103,7 +103,7 @@ export default function App() {
 
       <footer className="site-footer">
         <p>
-          QuakeReady WA is a student project and is not affiliated with any government agency. Its guidance is
+          Evergreen Ready is a student project and is not affiliated with any government agency. Its guidance is
           summarized from the official sources linked beside each item. In an emergency, call 911.
         </p>
         <p>Your answers stay in this browser. Nothing you enter is sent anywhere.</p>

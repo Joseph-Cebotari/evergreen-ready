@@ -5,7 +5,7 @@ import { describeHousehold } from './household.js';
 import { kitKey } from './generatePlan.js';
 
 export function buildShoppingList(plan, checked = {}) {
-  const lines = ['QuakeReady WA - still needed', `Household: ${describeHousehold(plan.household)}`, ''];
+  const lines = ['Evergreen Ready - still needed', `Household: ${describeHousehold(plan.household)}`, ''];
   let count = 0;
 
   for (const category of plan.kit) {
@@ -21,7 +21,7 @@ export function buildShoppingList(plan, checked = {}) {
   }
 
   if (count === 0) {
-    return 'QuakeReady WA - your kit is complete. Nothing left to buy.';
+    return 'Evergreen Ready - your kit is complete. Nothing left to buy.';
   }
   return lines.join('\n').trimEnd();
 }

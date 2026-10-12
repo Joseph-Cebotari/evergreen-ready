@@ -5,7 +5,7 @@
 
 import { useEffect, useState } from 'react';
 
-const PREFIX = 'quakeready:';
+const PREFIX = 'evergreen-ready:';
 
 export function readStored(key, fallback) {
   try {
